@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/bg3">
+
+    <TextView
+        android:id="@+id/mnumkn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="RTX 40 SERIES"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/garis"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@+id/mnumkn"
+        android:layout_marginTop="15dp"
+        android:background="@color/white" />
+
+
+    <LinearLayout
+        android:id="@+id/nsg"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/garis"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/menushape"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/rv_burger_menu"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/msicreator" />
+
+        <TextView
+            android:id="@+id/cv_get_all_burger"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="MSI CREATOR"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rp."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hnsgor"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="34.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/plusnasii"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:onClick="tambahnasgor"
+            android:src="@drawable/plus"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bnyknasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/minnasii"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/bnyknasi"
+            android:onClick="kurangnasgor"
+            android:src="@drawable/min"
+            tools:ignore="OnClick" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/nspdng"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nsg"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/menushape"
+        android:orientation="horizontal"
+        android:padding="3dp">
+
+        <ImageView
+            android:id="@+id/nspdg"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hpomen" />
+
+        <TextView
+            android:id="@+id/nasipdg"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="HP OMEN"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rp."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hnsipdg"
+            android:layout_width="78dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="26.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/pluspdg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:onClick="tambahnaspad"
+            android:src="@drawable/plus"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bnyknaspa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/minnspdg"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/bnyknasi"
+            android:onClick="kurangnaspad"
+            android:src="@drawable/min"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aymbkr"
+        android:layout_below="@id/nspdng"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@drawable/menushape">
+
+        <ImageView
+            android:id="@+id/paymbkr"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hpvictus" />
+
+        <TextView
+            android:id="@+id/aymbakar"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="HP VICTUS"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rp."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/haymbkr"
+            android:layout_width="81dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="20.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/plusaymbkr"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:onClick="tambahabakar"
+            android:src="@drawable/plus"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bnykaymbkr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/minaymbkr"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/bnyknasi"
+            android:onClick="kurangabakar"
+            android:src="@drawable/min"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/aympyt"
+        android:layout_below="@id/aymbkr"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@drawable/menushape">
+
+        <ImageView
+            android:id="@+id/paympyt"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/axioopongo" />
+
+        <TextView
+            android:id="@+id/aympenyet"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="AXIOO PONGO"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rp."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/haympyt"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="16.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/plusaympyt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:onClick="tambahapenyet"
+            android:src="@drawable/plus"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bnykaympyt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/minaympyt"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/bnyknasi"
+            android:onClick="kurangapenyet"
+            android:src="@drawable/min"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sp"
+        android:layout_below="@id/aympyt"
+        android:layout_marginTop="10dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:background="@drawable/menushape">
+
+        <ImageView
+            android:id="@+id/psop"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:src="@drawable/msikatana" />
+
+        <TextView
+            android:id="@+id/sop"
+            android:layout_width="82dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:text="MSI KATANA"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Rp."
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/hsop"
+            android:layout_width="79dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="23.000.000"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/plussop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:onClick="tambahsop"
+            android:src="@drawable/plus"
+            tools:ignore="UsingOnClickInXml" />
+
+        <TextView
+            android:id="@+id/bnyksop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:text="0"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/minsop"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/garis"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_toRightOf="@id/bnyknasi"
+            android:onClick="kurangsop"
+            android:src="@drawable/min"
+            tools:ignore="UsingOnClickInXml" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/keminuman"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btnshape"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="RTX 30 SERIES"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/cekot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@id/keminuman"
+        android:background="@drawable/btnshape"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="Check Out Now"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+</RelativeLayout>

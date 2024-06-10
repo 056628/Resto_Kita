@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:text="LAPTOP GAMING STORE"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="26dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Minimal Pakai GPU Boss"
+            android:textSize="22sp"
+            android:textStyle="italic"
+            android:textAlignment="center"/>
+
+        <View
+            android:id="@+id/garis1"
+            android:layout_width="320dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/black"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Daftar Pesanan Anda"
+            android:textStyle="italic"
+            android:textSize="24dp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/notashape">
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Pesanan"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+        <TextView
+            android:text="Harga"
+            android:layout_marginStart="30dp"
+            android:textStyle="italic"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/garis2"
+            android:layout_width="170dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="16dp"
+            android:background="@color/black" />
+
+        <View
+            android:id="@+id/garis3"
+            android:layout_width="100dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="34dp"
+            android:background="@color/black" />
+
+    </LinearLayout>
+
+            <TextView
+                android:id="@+id/tipe"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="2dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pesanan1"
+                android:layout_marginStart="20dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/harga1"
+                android:layout_marginStart="10dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/pesanan2"
+                android:layout_marginStart="20dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:id="@+id/harga2"
+                android:layout_marginStart="10dp"
+                android:textStyle="italic"
+                android:fontFamily="sans-serif-light"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan3"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga3"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan4"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga4"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan5"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga5"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tipes"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan6"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga6"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan7"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga7"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan8"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga8"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan9"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga9"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/pesanan10"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/harga10"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/garis4"
+                android:layout_width="350dp"
+                android:layout_height="1dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/black"
+                android:layout_gravity="center_horizontal"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/total"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:text="Total Bayar"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=": Rp."/>
+
+                <TextView
+                    android:id="@+id/hargatotal"
+                    android:layout_marginStart="3dp"
+                    android:textStyle="italic"
+                    android:fontFamily="sans-serif-light"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>
+            </LinearLayout>
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Terimakasih telah berbelanja :)"
+            android:textStyle=""
+            android:layout_marginTop="20dp"
+            android:textAlignment="center"/>
+        <TextView
+            android:id="@+id/ket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Back"
+            android:onClick="OnClick"
+            android:background="@drawable/btnshape"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

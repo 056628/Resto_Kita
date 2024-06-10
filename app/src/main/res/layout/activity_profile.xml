@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F90B5"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/prfl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:text="Profile"
+            android:textColor="@color/white"
+            android:textSize="27dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/prfl"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/profilhape"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/akun"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="120dp"
+            android:background="@drawable/profilshape"
+            android:gravity="center"
+            android:text="Akun"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bntu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/akun"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profilshape"
+            android:gravity="center"
+            android:text="Bantuan"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/out"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/bntu"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/profilshape"
+            android:gravity="center"
+            android:text="Keluar"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/nsg"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/prfl"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/profilshape"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/p_prfil"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:src="@drawable/profile" />
+
+        <TextView
+            android:id="@+id/n_nama"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_toRightOf="@id/p_prfil"
+            android:text="Nur Agung"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="145dp"
+            android:layout_height="1dp"
+            android:layout_below="@id/n_nama"
+            android:layout_toRightOf="@id/p_prfil"
+            android:background="@color/black" />
+
+
+        <TextView
+            android:id="@+id/h_esteh"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/n_nama"
+            android:layout_gravity="center"
+            android:layout_toRightOf="@id/p_prfil"
+            android:text="02 Februari 2022"
+            android:textColor="@color/black"
+            android:textStyle="italic" />
+
+        <View
+            android:id="@+id/garisprf"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/p_prfil"
+            android:background="@color/black" />
+
+        <TextView
+            android:id="@+id/bio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garisprf"
+            android:layout_marginTop="10dp"
+            android:text="Bio :"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/garisprf"
+            android:layout_toRightOf="@id/bio" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

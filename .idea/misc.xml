@@ -1,0 +1,36 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/drawable/bgshape.xml" value="0.151" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/drawable/btnshape.xml" value="0.151" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/drawable/notashape.xml" value="0.151" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/drawable/phone.xml" value="0.151" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_home.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_login.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_makanan.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_minuman.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_profile.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_splashscreen.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/activity_tujuan.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/design.xml" value="0.22" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/RestoKita/app/src/main/res/layout/register.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/drawable/pw.xml" value="0.136" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/activity_home.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/activity_login.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/activity_makanan.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/activity_minuman.xml" value="0.184375" />
+        <entry key="..\:/Users/Asus/AndroidStudioProjects/Resto_Kita/app/src/main/res/layout/register.xml" value="0.184375" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
